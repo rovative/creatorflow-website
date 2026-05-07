@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
         padding: '0 40px', height: 64,
       }}>
         <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
-          <Image src="/logo.jpg" alt="Creator Flow" width={34} height={34} style={{ borderRadius: 10 }} />
+          <Image src="/logo.png" alt="Creator Flow" width={34} height={34} style={{ borderRadius: 10 }} />
           <span style={{ fontWeight: 800, fontSize: 16, letterSpacing: -0.3, color: 'var(--text)' }}>Creator Flow</span>
         </Link>
         <Link href="/" style={{ color: 'var(--text-sub)', textDecoration: 'none', fontSize: 14, fontWeight: 500 }}>
@@ -152,7 +152,7 @@ export default function PrivacyPolicy() {
         flexWrap: 'wrap', gap: 16,
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <Image src="/logo.jpg" alt="Creator Flow" width={26} height={26} style={{ borderRadius: 7 }} />
+          <Image src="/logo.png" alt="Creator Flow" width={26} height={26} style={{ borderRadius: 7 }} />
           <span style={{ fontWeight: 700, fontSize: 14 }}>Creator Flow</span>
         </div>
         <div style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
