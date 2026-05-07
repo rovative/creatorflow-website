@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import EarlyAccessForm from '@/components/EarlyAccessForm';
 
 const FEATURES = [
   {
@@ -62,7 +63,7 @@ export default function Home() {
           <Link href="#features" style={{ color: 'var(--text-sub)', textDecoration: 'none', fontSize: 14, fontWeight: 500 }}>Features</Link>
           <Link href="#platforms" style={{ color: 'var(--text-sub)', textDecoration: 'none', fontSize: 14, fontWeight: 500 }}>Platforms</Link>
           <Link href="/privacy" style={{ color: 'var(--text-sub)', textDecoration: 'none', fontSize: 14, fontWeight: 500 }}>Privacy</Link>
-          <a href="mailto:rovative@gmail.com" style={{
+          <a href="#signup" style={{
             backgroundColor: 'var(--primary)', color: '#fff',
             padding: '8px 20px', borderRadius: 10, fontSize: 14,
             fontWeight: 700, textDecoration: 'none',
@@ -114,22 +115,12 @@ export default function Home() {
           Schedule and publish your content to Instagram, TikTok and more — all from one place. No more jumping between apps, no more account switching.
         </p>
 
-        <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap', justifyContent: 'center' }}>
-          <a href="mailto:rovative@gmail.com" style={{
-            backgroundColor: 'var(--primary)', color: '#fff',
-            padding: '16px 36px', borderRadius: 14, fontSize: 16,
-            fontWeight: 800, textDecoration: 'none', letterSpacing: -0.3,
-            boxShadow: '0 0 50px rgba(34,197,94,0.3)',
-          }}>
-            Get Early Access
-          </a>
+        <EarlyAccessForm />
+        <div style={{ marginTop: 16 }}>
           <a href="#features" style={{
-            backgroundColor: 'var(--surface)', color: 'var(--text)',
-            padding: '16px 36px', borderRadius: 14, fontSize: 16,
-            fontWeight: 700, textDecoration: 'none',
-            border: '1px solid var(--border)',
+            color: 'var(--text-sub)', fontSize: 14, textDecoration: 'none', fontWeight: 500,
           }}>
-            See Features →
+            See features →
           </a>
         </div>
 
@@ -266,7 +257,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section style={{
+      <section id="signup" style={{
         padding: '120px 24px', textAlign: 'center',
         background: 'linear-gradient(180deg, var(--bg) 0%, var(--surface) 100%)',
       }}>
@@ -280,18 +271,10 @@ export default function Home() {
             <span style={{ color: 'var(--primary)' }}>juggling apps?</span>
           </h2>
           <p style={{ color: 'var(--text-sub)', fontSize: 17, lineHeight: 1.65, marginBottom: 44 }}>
-            Creator Flow is in early access. Join now and get free Pro access while we build.
+            Enter your email and we&apos;ll notify you the moment the app is ready.
           </p>
-          <a href="mailto:rovative@gmail.com" style={{
-            display: 'inline-block',
-            backgroundColor: 'var(--primary)', color: '#fff',
-            padding: '18px 44px', borderRadius: 16, fontSize: 17,
-            fontWeight: 800, textDecoration: 'none', letterSpacing: -0.3,
-            boxShadow: '0 0 60px rgba(34,197,94,0.3)',
-          }}>
-            Get Early Access
-          </a>
-          <p style={{ color: 'var(--text-muted)', fontSize: 13, marginTop: 16 }}>
+          <EarlyAccessForm />
+          <p style={{ color: 'var(--text-muted)', fontSize: 13, marginTop: 20 }}>
             Available on iOS and Android — web app coming soon
           </p>
         </div>
