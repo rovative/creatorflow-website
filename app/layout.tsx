@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: 'One app. Every platform. Zero switching.',
     url: 'https://createaflow.app',
     siteName: 'Creator Flow',
-    images: [{ url: '/logo.png', width: 512, height: 512 }],
+    images: [{ url: '/logo.jpg', width: 512, height: 512 }],
   },
 };
 
