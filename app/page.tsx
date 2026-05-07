@@ -262,7 +262,6 @@ export default function Home() {
         background: 'linear-gradient(180deg, var(--bg) 0%, var(--surface) 100%)',
       }}>
         <div style={{ maxWidth: 580, margin: '0 auto' }}>
-          <Image src="/logo.png" alt="Creator Flow" width={72} height={72} style={{ borderRadius: 20, marginBottom: 36 }} />
           <h2 style={{
             fontSize: 'clamp(32px, 4vw, 54px)', fontWeight: 900,
             letterSpacing: -2, lineHeight: 1.08, marginBottom: 20,
