@@ -62,6 +62,7 @@ export default function Home() {
         <div style={{ display: 'flex', alignItems: 'center', gap: 28 }}>
           <Link href="#features" style={{ color: 'var(--text-sub)', textDecoration: 'none', fontSize: 14, fontWeight: 500 }}>Features</Link>
           <Link href="#platforms" style={{ color: 'var(--text-sub)', textDecoration: 'none', fontSize: 14, fontWeight: 500 }}>Platforms</Link>
+          <Link href="/terms" style={{ color: 'var(--text-sub)', textDecoration: 'none', fontSize: 14, fontWeight: 500 }}>Terms</Link>
           <Link href="/privacy" style={{ color: 'var(--text-sub)', textDecoration: 'none', fontSize: 14, fontWeight: 500 }}>Privacy</Link>
           <a href="#signup" style={{
             backgroundColor: 'var(--primary)', color: '#fff',
