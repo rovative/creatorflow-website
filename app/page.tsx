@@ -412,7 +412,7 @@ export default function Home() {
           </p>
           <EarlyAccessForm />
           <p style={{ color: 'var(--text-muted)', fontSize: 13, marginTop: 20 }}>
-            Available on iOS and Android — web app coming soon
+            Web app available now — iOS &amp; Android coming soon
           </p>
         </div>
       </section>
