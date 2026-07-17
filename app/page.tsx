@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import EarlyAccessForm from '@/components/EarlyAccessForm';
 
@@ -165,7 +164,7 @@ export default function Home() {
         padding: '0 40px', height: 64,
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <Image src="/logo.svg" alt="Creator Flow" width={34} height={34} style={{ borderRadius: 10 }} />
+          <img src="/logo.svg" alt="Creator Flow" width={34} height={34} style={{ borderRadius: 10 }} />
           <span style={{ fontWeight: 800, fontSize: 16, letterSpacing: -0.3 }}>Creator Flow</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 28 }}>
@@ -399,7 +398,7 @@ export default function Home() {
         flexWrap: 'wrap', gap: 16,
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <Image src="/logo.svg" alt="Creator Flow" width={26} height={26} style={{ borderRadius: 7 }} />
+          <img src="/logo.svg" alt="Creator Flow" width={26} height={26} style={{ borderRadius: 7 }} />
           <span style={{ fontWeight: 700, fontSize: 14 }}>Creator Flow</span>
         </div>
         <div style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
