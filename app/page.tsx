@@ -142,9 +142,9 @@ const FEATURES = [
 ];
 
 const PLATFORMS = [
-  { name: 'Instagram', Logo: LogoInstagram, status: 'Coming soon', highlight: true },
-  { name: 'TikTok', Logo: LogoTikTok, status: 'Coming soon', highlight: true },
-  { name: 'YouTube', Logo: LogoYouTube, status: 'Planned', highlight: false },
+  { name: 'TikTok', Logo: LogoTikTok, status: 'Available', highlight: true },
+  { name: 'Instagram', Logo: LogoInstagram, status: 'Coming soon', highlight: false },
+  { name: 'YouTube', Logo: LogoYouTube, status: 'Coming soon', highlight: false },
   { name: 'X / Twitter', Logo: LogoX, status: 'Planned', highlight: false },
 ];
 
@@ -343,7 +343,7 @@ export default function Home() {
           Where you create, we publish
         </h2>
         <p style={{ color: 'var(--text-sub)', fontSize: 17, marginBottom: 52 }}>
-          Starting with Instagram and TikTok. More coming soon.
+          TikTok is live. Instagram and YouTube coming soon.
         </p>
         <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
           {PLATFORMS.map((p) => {
