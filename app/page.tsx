@@ -210,12 +210,20 @@ export default function Home() {
         <h1 style={{
           fontSize: 'clamp(44px, 7vw, 82px)', fontWeight: 900,
           letterSpacing: -3, lineHeight: 1.03,
-          maxWidth: 820, marginBottom: 28,
+          maxWidth: 820, marginBottom: 16, color: 'var(--primary)',
         }}>
-          <span style={{ color: 'var(--primary)' }}>Creator Flow</span> —{' '}
-          one app,{' '}
-          every platform.
+          Creator Flow
         </h1>
+
+        <p style={{
+          fontSize: 'clamp(28px, 4vw, 52px)', fontWeight: 900,
+          letterSpacing: -2, lineHeight: 1.1,
+          maxWidth: 820, marginBottom: 28, color: 'var(--text)',
+        }}>
+          One app.{' '}
+          <span style={{ color: 'var(--primary)' }}>Every platform.</span>{' '}
+          Zero switching.
+        </p>
 
         <p style={{
           fontSize: 'clamp(16px, 2vw, 20px)', color: 'var(--text-sub)',
