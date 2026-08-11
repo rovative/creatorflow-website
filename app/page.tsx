@@ -221,7 +221,7 @@ export default function Home() {
           fontSize: 'clamp(16px, 2vw, 20px)', color: 'var(--text-sub)',
           lineHeight: 1.65, maxWidth: 540, marginBottom: 52,
         }}>
-          <span style={{ color: 'var(--primary)', fontWeight: 700 }}>Creator Flow</span> is a social media scheduling app. Schedule and publish your content to TikTok, Instagram, YouTube and more — all from one place. No more jumping between apps.
+          Schedule and publish your content to Instagram, TikTok and more — all from one place. No more jumping between apps, no more account switching.
         </p>
 
         <EarlyAccessForm />
@@ -388,6 +388,13 @@ export default function Home() {
             Web app available now — iOS &amp; Android coming soon
           </p>
         </div>
+      </section>
+
+      {/* About */}
+      <section style={{ padding: '48px 24px', borderTop: '1px solid var(--border)', textAlign: 'center' }}>
+        <p style={{ maxWidth: 560, margin: '0 auto', fontSize: 14, color: 'var(--text-muted)', lineHeight: 1.75 }}>
+          <span style={{ fontWeight: 700, color: 'var(--text-sub)' }}>Creator Flow</span> is a social media scheduling application for content creators. Connect your accounts once and schedule posts to TikTok, Instagram, YouTube and more — Creator Flow publishes automatically so you can focus on creating.
+        </p>
       </section>
 
       {/* Footer */}
