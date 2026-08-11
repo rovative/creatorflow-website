@@ -217,14 +217,11 @@ export default function Home() {
           {'\n'}Zero switching.
         </h1>
 
-        <h2 style={{ position: 'absolute', width: 1, height: 1, overflow: 'hidden', clip: 'rect(0,0,0,0)', whiteSpace: 'nowrap' }}>
-          Creator Flow is a social media scheduling tool that lets you schedule and publish videos to TikTok, Instagram, and YouTube from one place.
-        </h2>
         <p style={{
           fontSize: 'clamp(16px, 2vw, 20px)', color: 'var(--text-sub)',
           lineHeight: 1.65, maxWidth: 540, marginBottom: 52,
         }}>
-          Schedule and publish your content to Instagram, TikTok and more — all from one place. No more jumping between apps, no more account switching.
+          <span style={{ color: 'var(--primary)', fontWeight: 700 }}>Creator Flow</span> is a social media scheduling app. Schedule and publish your content to TikTok, Instagram, YouTube and more — all from one place. No more jumping between apps.
         </p>
 
         <EarlyAccessForm />
