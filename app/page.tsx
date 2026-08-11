@@ -212,16 +212,16 @@ export default function Home() {
           letterSpacing: -3, lineHeight: 1.03,
           maxWidth: 820, marginBottom: 28,
         }}>
-          One app.{' '}
-          <span style={{ color: 'var(--primary)' }}>Every platform.</span>
-          {'\n'}Zero switching.
+          <span style={{ color: 'var(--primary)' }}>Creator Flow</span> —{' '}
+          one app,{' '}
+          every platform.
         </h1>
 
         <p style={{
           fontSize: 'clamp(16px, 2vw, 20px)', color: 'var(--text-sub)',
           lineHeight: 1.65, maxWidth: 540, marginBottom: 52,
         }}>
-          Schedule and publish your content to Instagram, TikTok and more — all from one place. No more jumping between apps, no more account switching.
+          Schedule and publish your content to TikTok, Instagram, YouTube and more — all from one place. No more jumping between apps, no more account switching.
         </p>
 
         <EarlyAccessForm />
