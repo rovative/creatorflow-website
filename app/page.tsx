@@ -221,7 +221,7 @@ export default function Home() {
           fontSize: 'clamp(16px, 2vw, 20px)', color: 'var(--text-sub)',
           lineHeight: 1.65, maxWidth: 540, marginBottom: 52,
         }}>
-          Schedule and publish your content to Instagram, TikTok and more — all from one place. No more jumping between apps, no more account switching.
+          Creator Flow is a social media scheduling tool that lets you schedule and publish videos to TikTok, Instagram, YouTube and more — all from one place. No more jumping between apps, no more account switching.
         </p>
 
         <EarlyAccessForm />
