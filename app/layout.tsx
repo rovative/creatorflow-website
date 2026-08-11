@@ -18,8 +18,25 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'Creator Flow',
+    description: 'Creator Flow is a social media scheduling application. Schedule and publish content to TikTok, Instagram, YouTube and more from one dashboard. Automatically publish to multiple platforms at once.',
+    applicationCategory: 'SocialNetworkingApplication',
+    url: 'https://createaflow.app',
+    operatingSystem: 'Web',
+  };
+
   return (
     <html lang="en" className={geist.variable}>
+      <head>
+        <meta name="application-name" content="Creator Flow" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-screen flex flex-col">{children}</body>
     </html>
   );
